@@ -24,20 +24,20 @@ var editor = new Behave({
     fence: false
 });
 
-/*BehaveHooks.add('keyup', function(data){
+BehaveHooks.add('keyup', function(data){
 	WYSIWYG();
 });
 
 BehaveHooks.add('change', function(data){
 	alert('Saved !');
 	WYSIWYG();
-});*/
+});
 
-/*setInterval(function() {
+setInterval(function() {
 
 	WYSIWYG();
 
-}, 3000);*/
+}, 3000);
 
 
 //Menu behavior
